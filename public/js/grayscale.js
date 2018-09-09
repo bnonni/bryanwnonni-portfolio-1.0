@@ -46,7 +46,7 @@ var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(33.802835, -84.398265));
+    map.setCenter(new google.maps.LatLng(33.802508, -84.39311));
 });
 
 function init() {
@@ -57,12 +57,12 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(33.802835, -84.398265), // New York
+        center: new google.maps.LatLng(33.802508, -84.39311),
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
@@ -180,12 +180,12 @@ function init() {
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
 
-    // Create the Google Map using out element and options defined above
+    // Create the Google Map using  element and options defined above
     map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.svg';
-    var myLatLng = new google.maps.LatLng(33.802835, -84.398265);
+    var myLatLng = new google.maps.LatLng(33.802508, -84.39311);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,

@@ -1,5 +1,80 @@
 /*BWN Custom Styles*/
 
+@media(max-width: 400px) {
+    .work-section {
+        margin-top: 20% !important;
+    }
+    /* .inner-portfolio-containers {
+        width: 80%;
+        padding: 3% 0 0 0;
+        font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    } */
+}
+
+@media(max-width: 900px) {
+    h4 {
+        font-size: 1rem;
+    }
+    .inner-portfolio-containers {
+        width: 80% !important;
+        padding: 3% 0 0 0;
+        font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    #first-container {
+        padding-top: 17%;
+    }
+    .work-section div {
+        padding-bottom: 3%;
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 3%;
+    right: 1%;
+    background-color: #42dca3;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 10;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+#made {
+    /* background: url(../img/made.cloudtagslite.info.png) no-repeat bottom center scroll; */
+    background-size: 50%
+}
+
+h4 {
+    margin: 0 !important;
+}
+
+.work-section {
+    margin-top: 15%
+}
+
+.work-section div {
+    padding-bottom: 5%;
+}
+
+.inner-portfolio-containers {
+    padding: 3% 0 0 0;
+    border: 1px solid;
+    margin: 0 auto;
+    width: 80%;
+    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#credit {
+    padding: 0
+}
+
 .about-bryan {
     padding-top: 2%
 }
@@ -13,7 +88,7 @@
 }
 
 .content-section div {
-    padding-bottom: 5%
+    padding: 3% 0 5% 0;
 }
 
 .inner-portfolio-containers {
@@ -33,7 +108,9 @@ body {
     width: 100%;
     height: 100%;
     color: #fff;
-    background-color: #000
+    background-color: #000;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 html {
@@ -225,7 +302,8 @@ a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+    padding: 10% 0 15% 0;
 }
 
 #map {
