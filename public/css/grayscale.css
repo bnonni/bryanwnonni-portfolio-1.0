@@ -39,6 +39,10 @@ p {
     flex-direction: column;
 }
 
+#about>div>div>div>div:nth-child(4) {
+    padding-top: 5%
+}
+
 @media (min-width: 768px) {
     p {
         font-size: 18px;
@@ -234,6 +238,7 @@ a:hover {
     color: #42DCA3;
     border: 1px solid #42DCA3;
     background-color: transparent;
+    padding-top: 5%;
 }
 
 .btn-default:focus,
