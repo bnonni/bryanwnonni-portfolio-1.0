@@ -28,6 +28,14 @@
     }
 }
 
+.made-image {
+    width: 27%;
+    position: absolute;
+    left: 5%;
+    top: 37%;
+    height: 24em;
+}
+
 .float {
     position: fixed;
     width: 60px;
@@ -44,11 +52,6 @@
 
 .my-float {
     margin-top: 22px;
-}
-
-#made {
-    /* background: url(../img/made.cloudtagslite.info.png) no-repeat bottom center scroll; */
-    background-size: 50%
 }
 
 h4 {
@@ -69,6 +72,27 @@ h4 {
     margin: 0 auto;
     width: 80%;
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.about-arrow {
+    position: relative;
+    bottom: 5em;
+}
+
+.contact-arrow {
+    position: relative;
+    top: -4em;
+}
+
+.map-up-arrow {
+    position: relative;
+    top: 3em;
+    left: 26.5em;
+}
+
+.download-arrow {
+    position: relative;
+    top: 2em;
 }
 
 #credit {
