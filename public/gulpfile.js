@@ -75,7 +75,7 @@ gulp.task('css:minify', ['css:compile'], function() {
         .pipe(browserSync.stream());
 });
 
-// CSS
+// CSS & SCSS
 gulp.task('css', ['css:compile', 'css:minify']);
 
 // Minify JavaScript
