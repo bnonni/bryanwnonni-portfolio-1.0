@@ -1,6 +1,15 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    $("div#made-inner").hover(
+        function() {
+            $(".made-outer").append($("<img class='made-image'src='img/made.cloudtagslite.info.png' />"));
+        },
+        function() {
+            $("img.made-image").remove();
+        });
+
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
