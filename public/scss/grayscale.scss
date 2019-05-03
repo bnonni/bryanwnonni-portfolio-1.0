@@ -23,6 +23,14 @@
     }
 }
 
+#headshot{
+    width: 40%;
+}
+
+ul.list-inline.banner-social-buttons li{
+    margin: 2%;
+}
+
 .float {
     position: fixed;
     width: 60px;
@@ -111,6 +119,87 @@ img.made-image {
     bottom: 300px;
     height: auto;
     width: 20%;
+}
+
+img.linear-regression-code {
+    float: left;
+    position: relative;
+    left: 2em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
+}
+
+img.linear-regression-plot {
+    float: right;
+    position: relative;
+    right: 2em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
+}
+
+img.cb-image {
+    float: right;
+    position: relative;
+    right: 2em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
+}
+
+img.cprog-image{
+    float: left;
+    position: relative;
+    left: 3em;
+    bottom: 20em;
+    height: auto;
+    width: 25%;
+}
+
+img.oac-image {
+    float: right;
+    position: relative;
+    left: 3em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
+}
+
+img.pbs-image {
+    float: left;
+    position: relative;
+    left: 3em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
+}
+
+div#java-inner{
+    padding: 3% 0 3% 0;
+}
+
+#java-inner div{
+    padding: 3px;
+    font-size: 16px;
+}
+
+img.java-image{
+    float: right;
+    position: relative;
+    bottom: 28em;
+    width: 25%;
+    right: 6em;
+    height: 31em;
+}
+
+img.unix-image {
+    float: left;
+    position: relative;
+    left: 3em;
+    bottom: 20em;
+    height: auto;
+    width: 30%;
 }
 
 
