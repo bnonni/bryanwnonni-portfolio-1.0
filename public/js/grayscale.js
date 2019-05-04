@@ -66,13 +66,22 @@
             $("img.java-image").remove();
         });
 
-       // Java Image Append on Hover
+       // UNIX Image Append on Hover
        $("div#unix-inner").hover(
         function() {
             $(".unix-outer").append($("<img class='unix-image'src='img/work/UNIX.png' />"));
         },
         function() {
             $("img.unix-image").remove();
+        });
+
+        // x86 Image Append on Hover
+       $("div#x86-inner").hover(
+        function() {
+            $(".x86-outer").append($("<img class='x86-image'src='img/work/x86.png' />"));
+        },
+        function() {
+            $("img.x86-image").remove();
         });
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
