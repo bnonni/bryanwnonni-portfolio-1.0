@@ -1,5 +1,17 @@
+/*jshint esversion: 6 */
 (function($) {
     "use strict";
+    var screen_width = $(window).width();
+    if ( screen_width > 1000) {
+        console.log("Screen width = " + screen_width + ": not mobile.");
+    // BNHLegal Image Append on Hover
+    $("div#bnhlegal-inner").hover(
+        function () {
+            $(".bnhlegal-outer").append($("<img class='bnhlegal' src='img/work/bnhlegal.png' />"));
+        },
+        function () {
+            $("img.bnhlegal").remove();
+        });
     
     // Linear Regression Image Append on Hover
     $("div#linear-regression-inner").hover(
@@ -83,6 +95,7 @@
         function() {
             $("img.x86-image").remove();
         });
+    }
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

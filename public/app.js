@@ -8,7 +8,7 @@ const port = 8080;
 var reload = require('reload');
 
 const server = http.createServer((req, res) => {
-
+n
     /*initial server settings*/
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');

@@ -112,13 +112,13 @@ h4 {
   justify-content: center;
 }
 
-img.made-image {
+img.bnhlegal {
   float: left;
   position: relative;
-  left: 60px;
-  bottom: 300px;
+  left: 2em;
+  bottom: 17em;
   height: auto;
-  width: 20%;
+  width: 30%;
 }
 
 img.linear-regression-code {
@@ -146,6 +146,15 @@ img.cb-image {
   bottom: 20em;
   height: auto;
   width: 30%;
+}
+
+img.made-image {
+  float: left;
+  position: relative;
+  left: 60px;
+  bottom: 300px;
+  height: auto;
+  width: 20%;
 }
 
 img.cprog-image {
